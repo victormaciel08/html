@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+</head>
+<style>
+     td{
+        border: 2px ridge rgb(218, 218, 218);
+        border-collapse: collapse;
+        
+     }
+   
+</style>
+<body>
+    <form>
+        <table>
+            <tr>
+                <td><label  for="nome">Nome:</label></td>
+                <td><input type="text" id="nome" name="nome"></input></td>
+            </tr>
+            
+            <tr>
+                <td><label for="sexo">Sexo:</label></td>
+                <td><input type="radio" id="sexo" name="fem">Feminino</input>
+                <input type="radio" id="sexo" name="masc">Masculino</input></td>
+            </tr>
+            
+            <tr>
+                <td colspan="2"><label for="escolaridade">Escolaridade: </label>
+                <select id="escolaridade" name="escolaridade">
+                    <option value="1Grau">1° Grau</option>
+                    <option value="2Grau">2° Grau</option>
+                    <option value="Superior">Superior</option>
+                </select></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
