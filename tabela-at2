@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TABELA</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<style>
+    table{
+    border: 1px solid #ddd;
+    width: 460px;
+    border-collapse: collapse;
+    }
+
+    td, th{
+    border-bottom: 1px solid #c9c7c7;
+    text-align: left;
+    padding: 3px;
+    width: 15px;
+    }
+    .statsUP{
+        text-align: center;
+        font-size: 12.5px;
+        color: #949494;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .stats{
+        text-align: center;
+        font-size: 14px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .stats1{
+        text-align: center;
+        background-color: #ebebeb;
+        font-size: 14px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .posi1{
+        color: rgb(0, 0, 197);
+        text-align: center;
+        font-weight: bold;
+        font-size: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .posi2{
+        color: rgb(0, 153, 255);
+        text-align: center;
+        font-weight: bold;
+        font-size: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .posi3{
+        color: rgb(255, 196, 0);
+        text-align: center;
+        font-weight: bold;
+        font-size: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .posi4{
+        color: rgb(146, 146, 146);
+        text-align: center;
+        font-weight: bold;
+        font-size: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .posi5{
+        color: rgb(211, 2, 2);
+        text-align: center;
+        font-weight: bold;
+        font-size: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .time{
+        color: rgb(70, 70, 70);
+        font-size: 14px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+    }
+    .rodape1{
+        font-size: 10.5px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: rgb(107, 107, 107)
+    }
+    .rodape2{
+        font-size: 9px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bolder;
+    }
+    .lib{
+        color: rgb(0, 0, 197);
+    }
+    .plib{
+        color: rgb(0, 153, 255);
+    }
+    .sula{
+        color: rgb(255, 196, 0);
+    }
+    .reb{
+        color: rgb(211, 2, 2);
+    }
+
+</style>
+<body>
+    <table>
+        
+        <tr>
+            <td></td>
+            <td></td>
+            <td class="statsUP">P</td>
+            <td class="statsUP">J</td>
+            <td class="statsUP">V</td>
+            <td class="statsUP">E</td>
+            <td class="statsUP">D</td>
+            <td class="statsUP">GP</td>
+            <td class="statsUP">GC</td>
+            <td class="statsUP">SG</td>
+            <td class="statsUP">%</td>
+        </tr>
+
+        <tr >
+            <td class="posi1">1</td>
+            <td class="time">Corinthians</td>
+            <th class="stats1">17</th>
+            <td class="stats">7</td>
+            <td class="stats1">5</td>
+            <td class="stats">2</td>
+            <td class="stats1">0</td>
+            <td class="stats">15</td>
+            <td class="stats1">8</td>
+            <td class="stats">7</td>
+            <td class="stats1">81</td>
+
+        </tr>
+
+        <tr >
+            <td class="posi1">2</td>
+            <td class="time">Ceará</td>
+            <th class="stats1">17</th>
+            <td class="stats">7</td>
+            <td class="stats1">5</td>
+            <td class="stats">2</td>
+            <td class="stats1">0</td>
+            <td class="stats">7</td>
+            <td class="stats1">1</td>
+            <td class="stats">6</td>
+            <td class="stats1">81</td>
+        </tr>
+
+        <tr >
+            <td class="posi1">3</td>
+            <td class="time">Fluminense</td>
+            <th class="stats1">15</th>
+            <td class="stats">7</td>
+            <td class="stats1">5</td>
+            <td class="stats">0</td>
+            <td class="stats1">2</td>
+            <td class="stats">11</td>
+            <td class="stats1">5</td>
+            <td class="stats">6</td>
+            <td class="stats1">71.4</td>
+        </tr>
+
+        <tr style="border-bottom: 2px solid #b4b4b4;">
+            <td class="posi2">4</td>
+            <td class="time">Santos</td>
+            <th class="stats1">12</th>
+            <td class="stats">7</td>
+            <td class="stats1">3</td>
+            <td class="stats">3</td>
+            <td class="stats1">1</td>
+            <td class="stats">15</td>
+            <td class="stats1">10</td>
+            <td class="stats">5</td>
+            <td class="stats1">57.1</td>
+        </tr>
+
+        <tr >
+            <td class="posi3">5</td>
+            <td class="time">São Paulo</td>
+            <th class="stats1">11</th>
+            <td class="stats">7</td>
+            <td class="stats1">3</td>
+            <td class="stats">2</td>
+            <td class="stats1">2</td>
+            <td class="stats">9</td>
+            <td class="stats1">6</td>
+            <td class="stats">3</td>
+            <td class="stats1">52.4</td>
+        </tr>
+        <tr >
+            <td class="posi3">6</td>
+            <td class="time">Goiás</td>
+            <th class="stats1">10</th>
+            <td class="stats">7</td>
+            <td class="stats1">3</td>
+            <td class="stats">1</td>
+            <td class="stats1">3</td>
+            <td class="stats">9</td>
+            <td class="stats1">10</td>
+            <td class="stats">-1</td>
+            <td class="stats1">47.6</td>
+        </tr>
+        <tr >
+            <td class="posi3">7</td>
+            <td class="time">Botafogo</td>
+            <th class="stats1">9</th>
+            <td class="stats">7</td>
+            <td class="stats1">2</td>
+            <td class="stats">3</td>
+            <td class="stats1">2</td>
+            <td class="stats">13</td>
+            <td class="stats1">11</td>
+            <td class="stats">2</td>
+            <td class="stats1">42.9</td>
+        </tr>
+        <tr >
+            <td class="posi3">8</td>
+            <td class="time">Flamengo</td>
+            <th class="stats1">9</th>
+            <td class="stats">7</td>
+            <td class="stats1">2</td>
+            <td class="stats">3</td>
+            <td class="stats1">2</td>
+            <td class="stats">9</td>
+            <td class="stats1">8</td>
+            <td class="stats">1</td>
+            <td class="stats1">42.9</td>
+        </tr>
+        <tr >
+            <td class="posi3">9</td>
+            <td class="time">Cruzeiro</td>
+            <th class="stats1">9</th>
+            <td class="stats">6</td>
+            <td class="stats1">2</td>
+            <td class="stats">3</td>
+            <td class="stats1">1</td>
+            <td class="stats">7</td>
+            <td class="stats1">6</td>
+            <td class="stats">1</td>
+            <td class="stats1">50</td>
+        </tr>
+        <tr >
+            <td class="posi3">10</td>
+            <td class="time">Guarani</td>
+            <th class="stats1">9</th>
+            <td class="stats">6</td>
+            <td class="stats1">2</td>
+            <td class="stats">3</td>
+            <td class="stats1">1</td>
+            <td class="stats">7</td>
+            <td class="stats1">7</td>
+            <td class="stats">0</td>
+            <td class="stats1">50</td>
+        </tr>
+        <tr >
+            <td class="posi3">11</td>
+            <td class="time">Palmeiras</td>
+            <th class="stats1">8</th>
+            <td class="stats">6</td>
+            <td class="stats1">2</td>
+            <td class="stats">2</td>
+            <td class="stats1">2</td>
+            <td class="stats">5</td>
+            <td class="stats1">4</td>
+            <td class="stats">1</td>
+            <td class="stats1">44.4</td>
+        </tr>
+        <tr >
+            <td class="posi3">12</td>
+            <td class="time">Grêmio</td>
+            <th class="stats1">8</th>
+            <td class="stats">7</td>
+            <td class="stats1">2</td>
+            <td class="stats">2</td>
+            <td class="stats1">3</td>
+            <td class="stats">10</td>
+            <td class="stats1">11</td>
+            <td class="stats">-1</td>
+            <td class="stats1">38.1</td>
+        </tr>
+        <tr >
+            <td class="posi4">13</td>
+            <td class="time">Avaí</td>
+            <th class="stats1">8</th>
+            <td class="stats">7</td>
+            <td class="stats1">2</td>
+            <td class="stats">2</td>
+            <td class="stats1">3</td>
+            <td class="stats">10</td>
+            <td class="stats1">11</td>
+            <td class="stats">-1</td>
+            <td class="stats1">38.1</td>
+        </tr>
+        <tr >
+            <td class="posi4">14</td>
+            <td class="time">Vitória</td>
+            <th class="stats1">8</th>
+            <td class="stats">7</td>
+            <td class="stats1">2</td>
+            <td class="stats">2</td>
+            <td class="stats1">3</td>
+            <td class="stats">10</td>
+            <td class="stats1">11</td>
+            <td class="stats">-1</td>
+            <td class="stats1">38.1</td>
+        </tr>
+        <tr >
+            <td class="posi4">15</td>
+            <td class="time">Prudente</td>
+            <th class="stats1">8</th>
+            <td class="stats">6</td>
+            <td class="stats1">2</td>
+            <td class="stats">2</td>
+            <td class="stats1">2</td>
+            <td class="stats">9</td>
+            <td class="stats1">11</td>
+            <td class="stats">-2</td>
+            <td class="stats1">44.4</td>
+        </tr>
+        <tr style="border-bottom: 2px solid #b4b4b4;">
+            <td class="posi4">16</td>
+            <td class="time">Atlético-PR</td>
+            <th class="stats1">7</th>
+            <td class="stats">7</td>
+            <td class="stats1">2</td>
+            <td class="stats">1</td>
+            <td class="stats1">4</td>
+            <td class="stats">10</td>
+            <td class="stats1">15</td>
+            <td class="stats">-5</td>
+            <td class="stats1">33.3</td>
+        </tr>
+        <tr >
+            <td class="posi5">17</td>
+            <td class="time">Internacional</td>
+            <th class="stats1">6</th>
+            <td class="stats">6</td>
+            <td class="stats1">2</td>
+            <td class="stats">0</td>
+            <td class="stats1">4</td>
+            <td class="stats">10</td>
+            <td class="stats1">12</td>
+            <td class="stats">-2</td>
+            <td class="stats1">33.3</td>
+        </tr>
+        <tr >
+            <td class="posi5">18</td>
+            <td class="time">Atlético-MG</td>
+            <th class="stats1">6</th>
+            <td class="stats">7</td>
+            <td class="stats1">2</td>
+            <td class="stats">0</td>
+            <td class="stats1">5</td>
+            <td class="stats">10</td>
+            <td class="stats1">16</td>
+            <td class="stats">-6</td>
+            <td class="stats1">28.6</td>
+        </tr>
+        <tr >
+            <td class="posi5">19</td>
+            <td class="time">Vasco</td>
+            <th class="stats1">5</th>
+            <td class="stats">7</td>
+            <td class="stats1">1</td>
+            <td class="stats">2</td>
+            <td class="stats1">4</td>
+            <td class="stats">5</td>
+            <td class="stats1">12</td>
+            <td class="stats">-7</td>
+            <td class="stats1">23.8</td>
+        </tr>
+        <tr >
+            <td class="posi5">20</td>
+            <td class="time">Atlético-GO</td>
+            <th class="stats1">1</th>
+            <td class="stats">6</td>
+            <td class="stats1">0</td>
+            <td class="stats">1</td>
+            <td class="stats1">5</td>
+            <td class="stats">3</td>
+            <td class="stats1">9</td>
+            <td class="stats">-6</td>
+            <td class="stats1">5.6</td>
+        </tr>
+
+        <tr>
+            <td colspan="11"> <div class="rodape1"> <i class="fa-solid fa-square lib"></i> TAÇA LIBERTADORES  <i class="fa-solid fa-square plib"></i> PRÉ-LIBERTADORES <i class="fa-solid fa-square sula"></i> SUL-AMERICANA <i class="fa-solid fa-square reb"></i> REBAIXADOS</div>
+            <div class="rodape2">P pontos J jogos E empates D derrotas GP gols pró GC gols contra SG saldo de gols (%) aproveitamento</div>
+            </td>
+        </tr>
+    </table>
+    
+</body>
+</html>
