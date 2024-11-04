@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Streaming</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="base">
+    <h1 class="logo">UCBFlix</h1>
+    <ul class="menu">
+        <li>Inicio</li>
+        <li class="barra">Séries
+            <ul class="menu-barra">
+                <li>Ação</li>
+                <li>Drama</li>
+                <li>Comédia</li>
+                <li>Romance</li>   
+            </ul>
+        </li>
+        <li class="barra">Filmes
+            <ul class="menu-barra">
+                <li>Ação</li>
+                <li>Comédia</li>
+                <li>Drama</li>
+                <li>Infantil</li>
+                <li>Romance</li>   
+            </ul>
+        </li>
+        <li class="barra">Lançamentos
+            <ul class="menu-barra">
+                <li>Séries</li>
+                <li>Filmes</li>
+                <li>Desenhos</li>
+            </ul>
+        </li>
+        <li>Minha Lista</li>
+    </ul>
+    </div>
+    <div class="perfil">
+        <img src="data:image/jpeg;base64,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">
+        <ul class="menu-perfil">
+            <li>Conta</li>
+            <li>Configurações</li>
+            <li>Sair</li>
+        </ul>
+    </div>
+    </nav>
+</body>
+</html>
