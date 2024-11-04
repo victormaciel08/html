@@ -1,0 +1,83 @@
+body{
+    background-color: rgb(19, 19, 19);
+    color: rgb(255, 255, 255);
+}
+
+.base{
+
+    font-family: serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    width: 100%;
+    top: 0;
+    
+}
+
+.logo{
+    font-size: 35px;
+    font-family: cursive;
+}
+
+.menu{
+    list-style: none;
+    display: flex;
+    gap: 45px;
+}
+.menu li{
+    position: relative;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+.menu li:hover{
+    color: rgb(206, 206, 206);
+}
+
+.barra:hover .menu-barra{
+    display: block;
+}
+
+.menu-barra{
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    padding: 8px;
+    list-style: none;
+    min-width: 150px;
+}
+.menu-barra li{
+    padding: 6px;
+    transition: color 0.3s;
+}
+
+.perfil{
+    position: relative;
+    cursor: pointer;
+    margin-right: 70px;
+}
+.perfil img{
+    
+    width: 41px;
+    height: 41px;
+    border-radius: 50%;
+
+}
+.menu-perfil{
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    padding: 6px;
+    list-style: none;
+    min-width: 100px;
+}
+
+.menu-perfil li{
+    padding: -10px;
+    transition: color 0.3s;
+}
+.perfil:hover .menu-perfil{
+    display: block;
+}
