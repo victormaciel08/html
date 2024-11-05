@@ -1,36 +1,38 @@
-
 body{
     background-color: rgb(19, 19, 19);
     color: rgb(255, 255, 255);
+    font-family: Arial, sans-serif;
 }
 
 .base{
-
-    font-family: serif;
     display: flex;
     align-items: center;
     justify-content: space-between;
-
+    padding: 15px 40px;
+    background-color: rgb(19, 19, 19);
+    position: fixed;
     width: 100%;
     top: 0;
-    
+    z-index: 1000;
 }
 
 .logo{
-    font-size: 32px;
+    font-size: 35px;
     font-family: cursive;
-    margin-left: 15px;
+    margin-left: -7px;
 }
 
 .menu{
     list-style: none;
     display: flex;
     gap: 45px;
+    margin: 0;
 }
 .menu li{
     position: relative;
     font-size: 18px;
     transition: color 0.3s;
+    cursor: pointer;
 }
 .menu li:hover{
     color: rgb(206, 206, 206);
@@ -46,40 +48,68 @@ body{
     top: 100%;
     left: 0;
     padding: 8px;
+    background-color: rgb(30, 30, 30);
     list-style: none;
     min-width: 150px;
+    border-radius: 7px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
 .menu-barra li{
     padding: 6px;
     transition: color 0.3s;
 }
+.menu-barra li:hover{
+    color: rgb(206, 206, 206);
+    background-color: rgb(50, 50, 50);
+    border-radius: 3px;
+}
 
-.perfil{
+.pesquisa input{
+    background-color: rgb(61, 61, 61);
+    height: 20px;
+    width: 220px;
+    border-radius: 8px;
+    color: white;
+}
+
+
+.perfil {
     position: relative;
     cursor: pointer;
     margin-right: 70px;
 }
-.perfil img{
-    
+
+.perfil img {
     width: 41px;
     height: 41px;
     border-radius: 50%;
-
+    margin-right: 7px;
 }
-.menu-perfil{
+
+.menu-perfil {
     display: none;
     position: absolute;
     top: 100%;
-    left: 0;
+    right: 0;
     padding: 6px;
+    background-color: rgb(30, 30, 30);
     list-style: none;
     min-width: 100px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
 
-.menu-perfil li{
-    padding: -10px;
+.menu-perfil li {
+    padding: 6px 10px;
     transition: color 0.3s;
 }
-.perfil:hover .menu-perfil{
+
+.menu-perfil li:hover {
+    color: rgb(206, 206, 206);
+    background-color: rgb(50, 50, 50);
+    border-radius: 3px;
+}
+
+.perfil:hover .menu-perfil {
     display: block;
 }
