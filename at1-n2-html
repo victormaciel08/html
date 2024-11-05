@@ -8,15 +8,15 @@
 </head>
 <body>
     <nav class="base">
-    <h1 class="logo">UCBFlix</h1>
+    <h1 class="logo">Streaming</h1>
     <ul class="menu">
         <li>Inicio</li>
         <li class="barra">Séries
             <ul class="menu-barra">
                 <li>Ação</li>
-                <li>Drama</li>
                 <li>Comédia</li>
-                <li>Romance</li>   
+                <li>Drama</li>
+                <li>Terror</li>   
             </ul>
         </li>
         <li class="barra">Filmes
@@ -24,18 +24,18 @@
                 <li>Ação</li>
                 <li>Comédia</li>
                 <li>Drama</li>
-                <li>Infantil</li>
-                <li>Romance</li>   
+                <li>Terror</li>   
             </ul>
         </li>
-        <li class="barra">Lançamentos
+        <li class="barra">Jogos
             <ul class="menu-barra">
-                <li>Séries</li>
-                <li>Filmes</li>
-                <li>Desenhos</li>
+                <li>Aventura</li>
+                <li>Indie</li>
+                <li>Terror</li>
             </ul>
         </li>
-        <li>Minha Lista</li>
+        <li class="barra">Desenhos</li>
+        <li class="barra">Minha Lista</li>
     </ul>
     </div>
     <div class="perfil">
